@@ -1,7 +1,9 @@
 # DotFiles
 Linux Configuration Dotfiles
 
-## Contains / Will Contain
+## Contents and paths
 vim (/home/.vimrc)
 bash (/home/.bashrc)
-...
+mpv (/home/.config/mpv/mpv.conf)
+rofi ()
+
