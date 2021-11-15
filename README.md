@@ -14,3 +14,5 @@ select with rofi-theme-selector (rofi -show run)
 get themes from : https://github.com/lr-tech/rofi-themes-collection, https://github.com/Murzchnvok/rofi-collection  
 
 oh-my-posh (~/.poshthemes/...)
+
+.profile (for setxkbmap eu)
