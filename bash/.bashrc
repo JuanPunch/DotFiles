@@ -142,3 +142,22 @@ ex ()
 export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1;41;5:votes=1;44:dsc=0:other=1;35"
 
 eval "$(oh-my-posh --init --shell bash --config ~/.poshthemes/gruvbox_powerline.omp.json)"
+
+# export PATH=/opt/anaconda/bin:$PATH
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/anaconda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/anaconda/etc/profile.d/conda.sh" ]; then
+        . "/opt/anaconda/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/anaconda/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+eval $(keychain -q --noask --eval id_ed25519)
