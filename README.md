@@ -17,4 +17,4 @@ oh-my-posh (~/.poshthemes/...)
 
 .profile (for setxkbmap eu)
 
-TODO: VSCode, 
+VSCode (~/.config/Code/User/settings.json) 

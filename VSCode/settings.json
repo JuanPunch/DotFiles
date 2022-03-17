@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark (Soft)",
+    "python.defaultInterpreterPath": "/home/sascha/.conda/envs/machinelearning/bin/python",
+
+    // Controls the font family of the terminal, this defaults to `editor.fontFamily`'s value.
+    "terminal.integrated.fontFamily": "Iosevka Term",
+
+    // Controls the font size in pixels of the terminal.
+    "terminal.integrated.fontSize": 14,
+    "vim.vimrc.enable": true,
+    "terminal.integrated.inheritEnv": false
+
+    //"terminal.integrated.customGlyphs": true,
+
+    // The font weight to use within the terminal for non-bold text. Accepts "normal" and "bold" keywords or numbers between 1 and 1000.
+    //"terminal.integrated.fontWeight": "normal",
+}
