@@ -16,3 +16,5 @@ get themes from : https://github.com/lr-tech/rofi-themes-collection, https://git
 oh-my-posh (~/.poshthemes/...)
 
 .profile (for setxkbmap eu)
+
+TODO: VSCode, 
