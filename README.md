@@ -2,19 +2,20 @@
 Linux Configuration Dotfiles  
 
 ## Contents and paths
-vim (/home/.vimrc)  
+vim (/home/<USER>/.vimrc)  
 
-bash (/home/.bashrc)  
+bash (/home/<USER>/.bashrc)  
 
-mpv (/home/.config/mpv/mpv.conf)
+mpv (/home/<USER>/.config/mpv/mpv.conf)
   
-rofi (/home/.config/rofi/config.ras)
-keep themes in (~/.local/share/rofi/themes/)
-select with rofi-theme-selector (rofi -show run)
-get themes from : https://github.com/lr-tech/rofi-themes-collection, https://github.com/Murzchnvok/rofi-collection  
+rofi (/home/<USER>/.config/rofi/config.ras)
+    keep themes in (~/.local/share/rofi/themes/)
+    select with rofi-theme-selector (rofi -show run)
+    get themes from : https://github.com/lr-tech/rofi-themes-collection, https://github.com/Murzchnvok/rofi-collection  
 
 oh-my-posh (~/.poshthemes/...)
 
-.profile (for setxkbmap eu)
+.profile (/home/<USER>/.profile) 
+    (for setxkbmap eu)
 
 VSCode (~/.config/Code/User/settings.json) 
