@@ -1,6 +1,6 @@
 set nu " show line numbers
 inoremap jk <ESC> 
-let mapleader = "" 
+let mapleader = "'" 
 
 syntax on " highlight syntax
 set noswapfile " disable the swapfile
