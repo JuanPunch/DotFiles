@@ -1,4 +1,4 @@
-set nu " show line numbers
+set number " show line numbers
 inoremap jk <ESC> 
 let mapleader = "'" 
 
